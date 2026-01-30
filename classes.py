@@ -3,7 +3,6 @@ DZ2 - Завдання 1-5: Реалізація класів
 """
 
 
-# Завдання 1: Клас BankAccount
 class BankAccount:
     """Клас для управління банківським рахунком"""
     
@@ -54,7 +53,6 @@ class BankAccount:
             return False
 
 
-# Завдання 2: Клас Car
 class Car:
     """Клас для представлення автомобіля"""
     
@@ -81,7 +79,6 @@ class Car:
         return f"{self.year} {self.make} {self.model}"
 
 
-# Завдання 3: Клас Employee
 class Employee:
     """Клас для представлення працівника"""
     
@@ -108,7 +105,6 @@ class Employee:
         return f"Заробітна плата {self.name}: {self.salary}"
 
 
-# Завдання 4: Клас Rectangle
 class Rectangle:
     """Клас для представлення прямокутника"""
     
@@ -142,7 +138,6 @@ class Rectangle:
         return 2 * (self.width + self.height)
 
 
-# Завдання 5: Клас Product
 class Product:
     """Клас для представлення товару"""
     
