@@ -37,12 +37,7 @@ class Car:
         self.year = year
     
     def get_info(self):
-        """
-        Повертає інформацію про автомобіль
         
-        Returns:
-            str: Інформація у форматі "[рік] [марка] [модель]"
-        """
         return f"{self.year} {self.make} {self.model}"
 
 
